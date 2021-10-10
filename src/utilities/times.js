@@ -1,4 +1,3 @@
-import './App.css';
 import React, { useState, useEffect } from 'react';
 
 export const hasConflict = (course, selected) => (
@@ -10,7 +9,7 @@ export const hasConflict = (course, selected) => (
     && timeConflict(course1, course2)
   );
 
-  export  const getCourseTerm = course => (
+export  const getCourseTerm = course => (
     terms[course.id.charAt(0)]
 );
 
